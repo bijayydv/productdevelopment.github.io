@@ -1,0 +1,335 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+    height: 55px;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    height: 55px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #166955;
+  }
+
+  .nav{
+    margin-left:85%;
+  }
+
+  .ratio{
+    height: 200px;
+    width: auto;
+  }
+
+  /* .container-fluidbj{
+    height: 50px;
+    width: auto;
+    background-color: antiquewhite;
+    margin-top: 0%;
+    
+  } */
+
+  .logout{
+    font-size: 15px;
+    color: rgb(230, 86, 191);
+  }
+
+  .carousel-inner {
+    width: 100%;
+    /* height: 89vh */
+  }
+ 
+  div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+
+
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+.topnav-right {
+  float: right;
+  height: 55px;
+  margin-right: 2px;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.login{
+    background-color:black;
+    color:gold!important;
+    
+   
+}
+
+/* UPTO NAVBAR CAROSUEL SCROLLMENU END HERE */
+
+
+/* News section */
+.news1{
+    height: 276px!important;
+    width: 100%;
+
+  }
+
+  .news2{
+    height: 276px!important;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .card2{
+    margin-top: 10px;
+  }
+
+
+  .news3{
+    height: 276px!important;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .card3{
+    margin-top: 10px;
+  }
+
+
+  .news4{
+    height: 305px!important;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .card4{
+    margin-top: 10px;
+  }
+
+  .news5{
+    height: 290px!important;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .card5{
+    margin-top: 10px;
+  }
+
+  .container-fluid1{
+    margin-top: 15px;
+  }
+
+  .morenews{
+    margin-top: 15px;
+   margin-left: 800px;
+
+  }
+   .newsletter{
+    height: 50px;
+    width: auto;
+    background-color: bisque;
+
+   }
+
+   .newletter1{
+    height: 50px;
+    width: auto;
+    background-color: bisque;
+   }
+
+  /* New end */
+/* Highlight */
+
+.Highlights{
+    background-color: aquamarine;
+}
+
+.section-gallery{
+    background-color: darksalmon;
+}
+
+.News-section{
+    background-color: honeydew;
+}
+
+
+  /* //contact// */
+  .contact-section {
+    background-color: antiquewhite;
+  }
+
+  /* HomePagedesignendhere */
+
+
+/* fortheloginpageandsigninpage   */
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  padding-bottom: 60px;
+}
+
+.container .content{
+  text-align: center;
+}
+
+.container .content h3{
+  font-size: 30px;
+  color:#333;
+}
+
+.container .content h3 span{
+  background: crimson;
+  color:#fff;
+  border-radius: 5px;
+  padding:0 15px;
+}
+
+.container .content h1{
+  font-size: 50px;
+  color:#333;
+}
+
+.container .content h1 span{
+  color:crimson;
+}
+
+.container .content p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.container .content .btn{
+  display: inline-block;
+  padding:10px 30px;
+  font-size: 20px;
+  background: #333;
+  color:#fff;
+  margin:0 5px;
+  text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+  background: crimson;
+}
+
+.form-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  padding-bottom: 60px;
+  background: #eee;
+}
+
+.form-container form{
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  background: #fff;
+  text-align: center;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.form-container form h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color:#333;
+}
+
+
+
+.form-container form input,
+.form-container form select{
+  width: 100%;
+  padding:10px 15px;
+  font-size: 17px;
+  margin:8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form-container form select option{
+  background: #fff;
+}
+
+.form-container form .form-btn{
+  background: #fbd0d9;
+  color:crimson;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+  background: crimson;
+  color:#fff;
+}
+
+.form-container form p{
+  margin-top: 10px;
+  font-size: 20px;
+  color:#333;
+}
+
+.form-container form p a{
+  color:crimson;
+}
+
+.form-container form .error-msg{
+  margin:10px 0;
+  display: block;
+  background: crimson;
+  color:#fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding:10px;
+}
+
+/* designendhere */
